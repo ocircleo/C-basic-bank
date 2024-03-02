@@ -23,7 +23,6 @@ void recheck()
     printf("Enter D to deposit W to withdraw and C to check balance: ");
     char action = getchar();
     int x;
-    printf("The given character is: %c \n", action);
     if (tolower(action) == 'd')
     {
         printf("Enter Amount to Deposit: ");
